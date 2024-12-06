@@ -17,10 +17,10 @@ main{
 }
 #parent{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .contents{
-    border: 3px solid rgb(255, 255, 255);
+    border: 3px solid rgb(238, 204, 204);
     flex-basis: 25%;
     padding: 10px 15px;
     margin: 20px 0;
@@ -28,7 +28,7 @@ main{
 }
 h2{
     font-size: 25px;
-    border-bottom: 3px dotted rgb(255, 255, 255);
+    border-bottom: 3px dotted rgb(236, 122, 122);
 }
 h2::before{
     content: "⚫︎";
